@@ -1,0 +1,235 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.text.*?>
+
+<AnchorPane prefHeight="867.0" prefWidth="1244.0" xmlns="http://javafx.com/javafx/17.0.2-ea" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.procvicslovesnem.SlovesaController">
+   <children>
+      <TextField fx:id="cislo" layoutX="14.0" layoutY="14.0" promptText="Číslo" />
+      <Button fx:id="potvrdit" layoutX="169.0" layoutY="14.0" mnemonicParsing="false" text="Potvrdit" />
+      <ScrollBar layoutX="8.0" layoutY="839.0" />
+      <VBox layoutX="58.0" layoutY="76.0" prefHeight="230.0" prefWidth="237.0">
+         <children>
+            <Label fx:id="label11" prefHeight="50.0" prefWidth="231.0" text="...">
+               <font>
+                  <Font name="System Bold" size="27.0" />
+               </font>
+               <padding>
+                  <Insets bottom="1.0" top="10.0" />
+               </padding>
+            </Label>
+            <Label fx:id="label12" layoutX="10.0" layoutY="10.0" prefHeight="50.0" prefWidth="236.0" text="...">
+               <font>
+                  <Font name="System Bold" size="27.0" />
+               </font>
+               <padding>
+                  <Insets bottom="1.0" top="10.0" />
+               </padding>
+            </Label>
+            <Label fx:id="label13" layoutX="10.0" layoutY="10.0" prefHeight="50.0" prefWidth="208.0" text="...">
+               <font>
+                  <Font name="System Bold" size="27.0" />
+               </font>
+               <padding>
+                  <Insets bottom="1.0" top="10.0" />
+               </padding>
+            </Label>
+            <Label fx:id="label14" layoutX="10.0" layoutY="60.0" prefHeight="50.0" prefWidth="228.0" text="...">
+               <font>
+                  <Font name="System Bold" size="27.0" />
+               </font>
+               <padding>
+                  <Insets bottom="1.0" top="10.0" />
+               </padding>
+            </Label>
+         </children>
+      </VBox>
+      <VBox layoutX="375.0" layoutY="76.0" prefHeight="230.0" prefWidth="269.0">
+         <children>
+            <Label fx:id="label21" prefHeight="50.0" prefWidth="269.0" text="...">
+               <font>
+                  <Font name="System Bold" size="27.0" />
+               </font>
+               <padding>
+                  <Insets bottom="1.0" top="10.0" />
+               </padding>
+            </Label>
+            <Label fx:id="label22" layoutX="10.0" layoutY="10.0" prefHeight="50.0" prefWidth="266.0" text="...">
+               <font>
+                  <Font name="System Bold" size="27.0" />
+               </font>
+               <padding>
+                  <Insets bottom="1.0" top="10.0" />
+               </padding>
+            </Label>
+            <Label fx:id="label23" layoutX="10.0" layoutY="10.0" prefHeight="50.0" prefWidth="265.0" text="...">
+               <font>
+                  <Font name="System Bold" size="27.0" />
+               </font>
+               <padding>
+                  <Insets bottom="1.0" top="10.0" />
+               </padding>
+            </Label>
+            <Label fx:id="label24" layoutX="10.0" layoutY="60.0" prefHeight="50.0" prefWidth="265.0" text="...">
+               <font>
+                  <Font name="System Bold" size="27.0" />
+               </font>
+               <padding>
+                  <Insets bottom="1.0" top="10.0" />
+               </padding>
+            </Label>
+         </children>
+      </VBox>
+      <VBox layoutX="699.0" layoutY="76.0" prefHeight="230.0" prefWidth="269.0">
+         <children>
+            <Label fx:id="label31" prefHeight="50.0" prefWidth="271.0" text="...">
+               <font>
+                  <Font name="System Bold" size="27.0" />
+               </font>
+               <padding>
+                  <Insets bottom="1.0" top="10.0" />
+               </padding>
+            </Label>
+            <Label fx:id="label32" layoutX="10.0" layoutY="10.0" prefHeight="50.0" prefWidth="271.0" text="...">
+               <font>
+                  <Font name="System Bold" size="27.0" />
+               </font>
+               <padding>
+                  <Insets bottom="1.0" top="10.0" />
+               </padding>
+            </Label>
+            <Label fx:id="label33" layoutX="10.0" layoutY="10.0" prefHeight="50.0" prefWidth="269.0" text="...">
+               <font>
+                  <Font name="System Bold" size="27.0" />
+               </font>
+               <padding>
+                  <Insets bottom="1.0" top="10.0" />
+               </padding>
+            </Label>
+            <Label fx:id="label34" layoutX="10.0" layoutY="60.0" prefHeight="50.0" prefWidth="265.0" text="...">
+               <font>
+                  <Font name="System Bold" size="27.0" />
+               </font>
+               <padding>
+                  <Insets bottom="1.0" top="10.0" />
+               </padding>
+            </Label>
+         </children>
+      </VBox>
+      <VBox layoutX="39.0" layoutY="446.0" prefHeight="230.0" prefWidth="138.0">
+         <children>
+            <Label fx:id="label41" text="...">
+               <font>
+                  <Font name="System Bold" size="27.0" />
+               </font>
+               <padding>
+                  <Insets bottom="1.0" top="10.0" />
+               </padding>
+            </Label>
+            <Label fx:id="label42" layoutX="10.0" layoutY="10.0" text="...">
+               <font>
+                  <Font name="System Bold" size="27.0" />
+               </font>
+               <padding>
+                  <Insets bottom="1.0" top="10.0" />
+               </padding>
+            </Label>
+            <Label fx:id="label43" layoutX="10.0" layoutY="10.0" text="...">
+               <font>
+                  <Font name="System Bold" size="27.0" />
+               </font>
+               <padding>
+                  <Insets bottom="1.0" top="10.0" />
+               </padding>
+            </Label>
+            <Label fx:id="label44" layoutX="10.0" layoutY="60.0" text="...">
+               <font>
+                  <Font name="System Bold" size="27.0" />
+               </font>
+               <padding>
+                  <Insets bottom="1.0" top="10.0" />
+               </padding>
+            </Label>
+         </children>
+      </VBox>
+      <VBox layoutX="375.0" layoutY="446.0" prefHeight="230.0" prefWidth="138.0">
+         <children>
+            <Label fx:id="label51" text="...">
+               <font>
+                  <Font name="System Bold" size="27.0" />
+               </font>
+               <padding>
+                  <Insets bottom="1.0" top="10.0" />
+               </padding>
+            </Label>
+            <Label fx:id="label52" layoutX="10.0" layoutY="10.0" text="...">
+               <font>
+                  <Font name="System Bold" size="27.0" />
+               </font>
+               <padding>
+                  <Insets bottom="1.0" top="10.0" />
+               </padding>
+            </Label>
+            <Label fx:id="label53" layoutX="10.0" layoutY="10.0" text="...">
+               <font>
+                  <Font name="System Bold" size="27.0" />
+               </font>
+               <padding>
+                  <Insets bottom="1.0" top="10.0" />
+               </padding>
+            </Label>
+            <Label fx:id="label54" layoutX="10.0" layoutY="60.0" text="...">
+               <font>
+                  <Font name="System Bold" size="27.0" />
+               </font>
+               <padding>
+                  <Insets bottom="1.0" top="10.0" />
+               </padding>
+            </Label>
+         </children>
+      </VBox>
+      <VBox layoutX="699.0" layoutY="446.0" prefHeight="230.0" prefWidth="138.0">
+         <children>
+            <Label fx:id="label61" text="...">
+               <font>
+                  <Font name="System Bold" size="27.0" />
+               </font>
+               <padding>
+                  <Insets bottom="1.0" top="10.0" />
+               </padding>
+            </Label>
+            <Label fx:id="label62" layoutX="10.0" layoutY="10.0" text="...">
+               <font>
+                  <Font name="System Bold" size="27.0" />
+               </font>
+               <padding>
+                  <Insets bottom="1.0" top="10.0" />
+               </padding>
+            </Label>
+            <Label fx:id="label63" layoutX="10.0" layoutY="10.0" text="...">
+               <font>
+                  <Font name="System Bold" size="27.0" />
+               </font>
+               <padding>
+                  <Insets bottom="1.0" top="10.0" />
+               </padding>
+            </Label>
+            <Label fx:id="label64" layoutX="10.0" layoutY="60.0" text="...">
+               <font>
+                  <Font name="System Bold" size="27.0" />
+               </font>
+               <padding>
+                  <Insets bottom="1.0" top="10.0" />
+               </padding>
+            </Label>
+         </children>
+      </VBox>
+      <AnchorPane layoutX="898.0" layoutY="68.0" prefHeight="734.0" prefWidth="321.0">
+         <children>
+            <TextArea fx:id="seznam" layoutX="73.0" layoutY="-61.0" prefHeight="497.0" prefWidth="208.0" />
+         </children>
+      </AnchorPane>
+   </children>
+</AnchorPane>
