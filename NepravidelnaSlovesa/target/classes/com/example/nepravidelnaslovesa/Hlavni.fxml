@@ -1,0 +1,241 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.text.*?>
+
+<AnchorPane prefHeight="892.0" prefWidth="1909.0" xmlns="http://javafx.com/javafx/17.0.2-ea" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.nepravidelnaslovesa.HlavniController">
+   <children>
+      <Button fx:id="button_dalsi" layoutX="14.0" layoutY="14.0" mnemonicParsing="false" text="Další">
+         <font>
+            <Font name="Arial Bold" size="18.0" />
+         </font>
+      </Button>
+      <HBox fx:id="hbox_1" layoutX="237.0" layoutY="53.0" prefHeight="248.0" prefWidth="1156.0">
+         <children>
+            <VBox fx:id="vbox1" prefHeight="248.0" prefWidth="376.0">
+               <children>
+                  <Label fx:id="label_11" prefHeight="55.0" prefWidth="375.0" text="">
+                     <font>
+                        <Font name="Arial" size="30.0" />
+                     </font>
+                  </Label>
+                  <Label fx:id="label_12" prefHeight="55.0" prefWidth="375.0" text="">
+                     <font>
+                        <Font name="Arial" size="30.0" />
+                     </font>
+                  </Label>
+                  <Label fx:id="label_13" prefHeight="55.0" prefWidth="375.0" text="">
+                     <font>
+                        <Font name="Arial" size="30.0" />
+                     </font>
+                  </Label>
+                  <Label fx:id="label_14" prefHeight="55.0" prefWidth="375.0" text="">
+                     <font>
+                        <Font name="Arial" size="30.0" />
+                     </font>
+                  </Label>
+               </children></VBox>
+            <VBox fx:id="vbox2" layoutX="10.0" layoutY="10.0" prefHeight="248.0" prefWidth="390.0">
+               <children>
+                  <Label fx:id="label_21" prefHeight="55.0" prefWidth="375.0" text="">
+                     <font>
+                        <Font name="Arial" size="30.0" />
+                     </font>
+                  </Label>
+                  <Label fx:id="label_22" prefHeight="55.0" prefWidth="375.0" text="">
+                     <font>
+                        <Font name="Arial" size="30.0" />
+                     </font>
+                  </Label>
+                  <Label fx:id="label_23" prefHeight="55.0" prefWidth="375.0" text="">
+                     <font>
+                        <Font name="Arial" size="30.0" />
+                     </font>
+                  </Label>
+                  <Label fx:id="label_24" prefHeight="55.0" prefWidth="375.0" text="">
+                     <font>
+                        <Font name="Arial" size="30.0" />
+                     </font>
+                  </Label>
+               </children></VBox>
+            <VBox fx:id="vbox3" layoutX="364.0" layoutY="10.0" prefHeight="248.0" prefWidth="392.0">
+               <children>
+                  <Label fx:id="label_31" prefHeight="55.0" prefWidth="375.0" text="">
+                     <font>
+                        <Font name="Arial" size="30.0" />
+                     </font>
+                  </Label>
+                  <Label fx:id="label_32" prefHeight="55.0" prefWidth="375.0" text="">
+                     <font>
+                        <Font name="Arial" size="30.0" />
+                     </font>
+                  </Label>
+                  <Label fx:id="label_33" prefHeight="55.0" prefWidth="375.0" text="">
+                     <font>
+                        <Font name="Arial" size="30.0" />
+                     </font>
+                  </Label>
+                  <Label fx:id="label_34" prefHeight="55.0" prefWidth="375.0" text="">
+                     <font>
+                        <Font name="Arial" size="30.0" />
+                     </font>
+                  </Label>
+               </children></VBox>
+         </children></HBox>
+      <HBox fx:id="hbox_3" layoutX="246.0" layoutY="579.0" prefHeight="278.0" prefWidth="1156.0">
+         <children>
+            <VBox fx:id="vbox7" prefHeight="278.0" prefWidth="368.0">
+               <children>
+                  <Label fx:id="label_71" prefHeight="55.0" prefWidth="375.0" text="">
+                     <font>
+                        <Font name="Arial" size="30.0" />
+                     </font>
+                  </Label>
+                  <Label fx:id="label_72" prefHeight="55.0" prefWidth="375.0" text="">
+                     <font>
+                        <Font name="Arial" size="30.0" />
+                     </font>
+                  </Label>
+                  <Label fx:id="label_73" prefHeight="55.0" prefWidth="375.0" text="">
+                     <font>
+                        <Font name="Arial" size="30.0" />
+                     </font>
+                  </Label>
+                  <Label fx:id="label_74" prefHeight="55.0" prefWidth="375.0" text="">
+                     <font>
+                        <Font name="Arial" size="30.0" />
+                     </font>
+                  </Label>
+               </children>
+            </VBox>
+            <VBox fx:id="vbox8" prefHeight="278.0" prefWidth="375.0">
+               <children>
+                  <Label fx:id="label_81" prefHeight="55.0" prefWidth="375.0" text="">
+                     <font>
+                        <Font name="Arial" size="30.0" />
+                     </font>
+                  </Label>
+                  <Label fx:id="label_82" prefHeight="55.0" prefWidth="375.0" text="">
+                     <font>
+                        <Font name="Arial" size="30.0" />
+                     </font>
+                  </Label>
+                  <Label fx:id="label_83" prefHeight="55.0" prefWidth="375.0" text="">
+                     <font>
+                        <Font name="Arial" size="30.0" />
+                     </font>
+                  </Label>
+                  <Label fx:id="label_84" prefHeight="55.0" prefWidth="375.0" text="">
+                     <font>
+                        <Font name="Arial" size="30.0" />
+                     </font>
+                  </Label>
+               </children>
+            </VBox>
+            <VBox fx:id="vbox9" prefHeight="278.0" prefWidth="416.0" >
+               <children>
+                  <Label fx:id="label_91" prefHeight="55.0" prefWidth="375.0" text="">
+                     <font>
+                        <Font name="Arial" size="30.0" />
+                     </font>
+                  </Label>
+                  <Label fx:id="label_92" prefHeight="55.0" prefWidth="375.0" text="">
+                     <font>
+                        <Font name="Arial" size="30.0" />
+                     </font>
+                  </Label>
+                  <Label fx:id="label_93" prefHeight="55.0" prefWidth="375.0" text="">
+                     <font>
+                        <Font name="Arial" size="30.0" />
+                     </font>
+                  </Label>
+                  <Label fx:id="label_94" prefHeight="55.0" prefWidth="375.0" text="">
+                     <font>
+                        <Font name="Arial" size="30.0" />
+                     </font>
+                  </Label>
+               </children>
+            </VBox>
+
+         </children></HBox>
+      <ListView fx:id="listview_slovesa" layoutX="14.0" layoutY="66.0" prefHeight="589.0" prefWidth="195.0" />
+      <TextField fx:id="txtF_poradi" layoutX="89.0" layoutY="14.0" prefHeight="33.0" prefWidth="157.0" promptText="Pořadí slovesa">
+         <font>
+            <Font size="14.0" />
+         </font>
+      </TextField>
+      <HBox fx:id="hbox_2" layoutX="237.0" layoutY="301.0" prefHeight="278.0" prefWidth="1156.0">
+         <children>
+            <VBox fx:id="vbox4" prefHeight="278.0" prefWidth="371.0">
+               <children>
+                  <Label fx:id="label_41" prefHeight="55.0" prefWidth="375.0" text="">
+                     <font>
+                        <Font name="Arial" size="30.0" />
+                     </font>
+                  </Label>
+                  <Label fx:id="label_42" prefHeight="55.0" prefWidth="375.0" text="">
+                     <font>
+                        <Font name="Arial" size="30.0" />
+                     </font>
+                  </Label>
+                  <Label fx:id="label_43" prefHeight="55.0" prefWidth="375.0" text="">
+                     <font>
+                        <Font name="Arial" size="30.0" />
+                     </font>
+                  </Label>
+                  <Label fx:id="label_44" prefHeight="55.0" prefWidth="375.0" text="">
+                     <font>
+                        <Font name="Arial" size="30.0" />
+                     </font>
+                  </Label>
+               </children></VBox>
+            <VBox fx:id="vbox5" prefHeight="278.0" prefWidth="392.0">
+               <children>
+                  <Label fx:id="label_51" prefHeight="55.0" prefWidth="375.0" text="">
+                     <font>
+                        <Font name="Arial" size="30.0" />
+                     </font>
+                  </Label>
+                  <Label fx:id="label_52" prefHeight="55.0" prefWidth="375.0" text="">
+                     <font>
+                        <Font name="Arial" size="30.0" />
+                     </font>
+                  </Label>
+                  <Label fx:id="label_53" prefHeight="55.0" prefWidth="375.0" text="">
+                     <font>
+                        <Font name="Arial" size="30.0" />
+                     </font>
+                  </Label>
+                  <Label fx:id="label_54" prefHeight="55.0" prefWidth="375.0" text="">
+                     <font>
+                        <Font name="Arial" size="30.0" />
+                     </font>
+                  </Label>
+               </children></VBox>
+            <VBox fx:id="vbox6" prefHeight="278.0" prefWidth="394.0">
+               <children>
+                  <Label fx:id="label_61" prefHeight="55.0" prefWidth="375.0" text="">
+                     <font>
+                        <Font name="Arial" size="30.0" />
+                     </font>
+                  </Label>
+                  <Label fx:id="label_62" prefHeight="55.0" prefWidth="375.0" text="">
+                     <font>
+                        <Font name="Arial" size="30.0" />
+                     </font>
+                  </Label>
+                  <Label fx:id="label_63" prefHeight="55.0" prefWidth="375.0" text="">
+                     <font>
+                        <Font name="Arial" size="30.0" />
+                     </font>
+                  </Label>
+                  <Label fx:id="label_64" prefHeight="55.0" prefWidth="375.0" text="">
+                     <font>
+                        <Font name="Arial" size="30.0" />
+                     </font>
+                  </Label>
+               </children></VBox>
+         </children></HBox>
+   </children>
+</AnchorPane>
